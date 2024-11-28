@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { fetchMockedData } from '../../api/mockApi';
-import './Dropdown.css'; // Add custom styles here if needed
+import './Dropdown.css'; 
 
 const Dropdown = () => {
   const [searchTerm, setSearchTerm] = useState('');
